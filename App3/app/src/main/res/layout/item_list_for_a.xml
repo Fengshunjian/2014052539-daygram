@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="30sp">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="48sp">
+
+        <TextView
+            android:layout_width="48sp"
+            android:text="week"
+            android:id="@+id/a_week"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="2sp"
+            android:layout_height="13sp" />
+
+        <TextView
+            android:layout_width="48sp"
+            android:layout_height="20dp"
+            android:text="date"
+            android:id="@+id/a_date"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="13sp"
+            android:layout_marginLeft="5sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="match_parent"
+            android:text="content"
+            android:id="@+id/a_content"
+            android:layout_marginLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>
